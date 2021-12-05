@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#searchBar {
+  width: 40vw;
+  display: flex;
+  border-bottom: white 2px solid;
+  justify-content: space-between;
+}
+
+input {
+  background-color: inherit;
+  color: inherit;
+  border: 0;
+  width: fit-content;
+  flex: auto;  
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.center {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+}
+
+#result {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 3vh;
+}
+
+#city {
+  width: fit-content;
+  flex-flow: nowrap;
+  font-size: 150px;
+  font-weight: 900;
+}
+
+#timeBlock {
+  font-size: 80px;
+}
+
+#temp {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+
+#tempInformation {
+  width: 50%;
+}
+
+.text {
+  font-size: 10px;
+}
+
+.info {
+  font-size: 30px;
+}
