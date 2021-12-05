@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/YoYuTW/weather-app#readme",
   "devDependencies": {
+    "@yoyu/create-new-element": "^1.0.1",
     "css-loader": "^6.5.1",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
@@ -29,7 +30,6 @@
     "webpack-dev-server": "^4.6.0"
   },
   "dependencies": {
-    "@yoyu/create-new-element": "^1.0.1",
     "createnewelement": "file:../createNewElement",
     "date-fns": "^2.27.0"
   }
