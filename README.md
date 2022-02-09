@@ -1,5 +1,9 @@
-# weather-app #
+# Weather app
 
-use webpack and JavaScript to practice fetching data through api.
+fetch API的練習專案，資料來源為[OpenWeather](https://openweathermap.org/)
 
-[Sample](https://yoyutw.github.io/weather-app/)
+## [Demo](https://yoyutw.github.io/weather-app/)
+
+![demo](./demo/demo.png)
+
+* 2022/02/09 新增 dotenv 將 appid 隱藏
